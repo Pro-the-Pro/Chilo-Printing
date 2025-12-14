@@ -57,7 +57,13 @@ a {
     border-radius: 5px;
     text-decoration: none;
 }
-h1 {
+h1 
+{
     font-size: x-large;
+}
+
+.images
+{
+    border-radius :10px;
 }
 
