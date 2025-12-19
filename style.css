@@ -18,6 +18,11 @@ body {
     color : rgb(255, 255, 255);
 }
 
+.price, .big-bold-text {
+    font-size: large;
+    font-weight: bold;
+}
+
 a {
     background-color: #011aff;
     color: white;
@@ -26,6 +31,16 @@ a {
     font-size: medium;
     border: none;
     border-radius: 5px;
+}
+
+.text-input
+{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    color: white;
+    border-radius: 5px;
+    border-color: #26a316;
 }
 
 .headerbutton {
@@ -42,21 +57,13 @@ a {
     font-size: small;
 }
 
-.product {
+.product, .content-section {
     line-height: 1.6;
     border-radius: 5px;
     background-color: #f4f4f4;
     padding: 10px;
 }
 
-.bloglink{
-    display: inline-block;
-    padding: 5px 10px;
-    background-color: #011aff;
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
-}
 h1 
 {
     font-size: x-large;
