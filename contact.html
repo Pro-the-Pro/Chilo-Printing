@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="description" content="Chilo Printing is a 3d Printing Company specializing in 3d printed fidget toys">
+    <meta name="description" content="Chilo Printing - Contact Us page">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -12,7 +12,7 @@
   <p class="header">Chilo Printing</p>
   <a class="headerbutton" href='products/products.html'>Products</a>
   <a class="headerbutton" href='index.html'>Home</a>
-  <a class="headerbutton" href='contact/contact.html'>Contact</a>
+  <a class="headerbutton" href='contact.html'>Contact</a>
   <a class="headerbutton" href='about.html'>About</a>
 </div>
 
@@ -22,9 +22,8 @@
     <h2>Contact Us</h2>
     <p class="big-bold-text">Email: chiloprinting@outlook.com</p>
 
-    <form action="https://formsubmit.co/chiloprinting@outlook.com" method="POST">
+    <form action="https://formspree.io/f/mgowazkw" method="POST">
     
-        <input type="hidden" name="_captcha" value="false">
 
         <p>
             <label>Name<br>
@@ -43,6 +42,8 @@
 
         <p>
             <button class="headerbutton" type="submit">Send Message</button>
+            <input type="hidden" name="_redirect" value="thankyou.html">
+
         </p>
     </form>
 
